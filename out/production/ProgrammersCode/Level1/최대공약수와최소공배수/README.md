@@ -1,6 +1,7 @@
 >best  
-반복문 방법
-0.020625 ms
+
+반복문 방법  
+0.020625 ms  
 ```
 public int[] solution(int n, int m) {
     int gcd = gcd(n,m);
@@ -16,8 +17,8 @@ public int gcd(int n, int m) {
     return n;
 }
 ```
-재귀 방법
-0.0225 ms
+재귀 방법  
+0.0225 ms  
 ```
 public int[] solution(int n, int m) {
         int gcd = gcd(n,m);
