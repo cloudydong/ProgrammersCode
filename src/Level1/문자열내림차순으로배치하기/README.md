@@ -15,7 +15,7 @@ public int[] solution(int []arr) {
 
 > worst  
 
-11.17 ms
+3점 8.824 ms
 ```
 public int[] solution(int []arr) {
         ArrayList<Integer> arrayList = new ArrayList<>();
