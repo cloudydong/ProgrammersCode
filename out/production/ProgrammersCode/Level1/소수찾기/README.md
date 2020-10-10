@@ -1,6 +1,7 @@
 > 첫시도  
 
-에라토스테네스의 체  
+에라토스테네스의 체  true false 를 뒤집으면 아주 약간 빨라진다.  
+시간복잡도 N(sqrt(N)+1)
 10점 11.294375ms  
 ```
 public int solution(int n) {

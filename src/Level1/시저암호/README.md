@@ -29,20 +29,20 @@ public String solution(String s, int n) {
 7점 0.0961ms  
 ```
 public String solution(String s, int n) {
-        char[] chars = s.toCharArray();
-        for (int i = 0; i < chars.length; i++) {
-            if (chars[i] >= (int) 'A' && chars[i] <= (int) 'Z') {
-                if ((char) (chars[i] + n) > (int) 'Z')
-                    chars[i] = (char) (chars[i] + n -1 - 'Z' + 'A');
-                else
-                    chars[i] = (char) (chars[i] + n);
-            } else if (chars[i] >= (int) 'a' && chars[i] <= (int) 'z') {
-                if ((char) (chars[i] + n) > (int) 'z')
-                    chars[i] = (char) (chars[i] + n -1 - 'z' + 'a');
-                else
-                    chars[i] = (char) (chars[i] + n);
-            }
+    char[] chars = s.toCharArray();
+    for (int i = 0; i < chars.length; i++) {
+        if (chars[i] >= (int) 'A' && chars[i] <= (int) 'Z') {
+            if ((char) (chars[i] + n) > (int) 'Z')
+                chars[i] = (char) (chars[i] + n -1 - 'Z' + 'A');
+            else
+                chars[i] = (char) (chars[i] + n);
+        } else if (chars[i] >= (int) 'a' && chars[i] <= (int) 'z') {
+            if ((char) (chars[i] + n) > (int) 'z')
+                chars[i] = (char) (chars[i] + n -1 - 'z' + 'a');
+            else
+                chars[i] = (char) (chars[i] + n);
         }
-        return new String(chars);
     }
+    return new String(chars);
+}
 ```
