@@ -33,7 +33,7 @@ public int solution(int n) {
 ```
 
 가장 빠르게 pow, log 구현시  
-0.024 ms
+0.024 ms 4점...
 ```
 class Solution {
     public int solution(int n) {
